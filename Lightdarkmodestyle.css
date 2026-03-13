@@ -1,0 +1,36 @@
+body{
+font-family: Arial;
+margin:0;
+transition:0.3s;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+background:#4CAF50;
+color:white;
+}
+
+main{
+padding:40px;
+}
+
+/* Circle button */
+
+#themeBtn{
+width:40px;
+height:40px;
+border-radius:50%;
+border:none;
+cursor:pointer;
+font-size:18px;
+}
+
+/* Dark Mode */
+
+.dark{
+background:#121212;
+color:white;
+}

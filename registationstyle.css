@@ -1,0 +1,55 @@
+body{
+font-family: Arial;
+background:#f4f4f4;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+background:white;
+padding:25px;
+border-radius:10px;
+width:300px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+input{
+width:100%;
+padding:8px;
+margin:5px 0 10px 0;
+}
+
+small{
+color:red;
+}
+
+.password-box{
+display:flex;
+}
+
+.password-box button{
+margin-left:5px;
+}
+
+.strength{
+height:6px;
+background:#ddd;
+margin-bottom:10px;
+}
+
+#strengthBar{
+height:100%;
+width:0%;
+background:red;
+}
+
+button{
+padding:10px;
+width:100%;
+background:#007bff;
+color:white;
+border:none;
+cursor:pointer;
+}
